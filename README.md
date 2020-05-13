@@ -2,6 +2,8 @@
 
 as `with(arg)`
 
+[CodeSandbox](https://codesandbox.io/s/vue-with-wrapper-demo-96i3f)
+
 ## Example
 
 ```html
