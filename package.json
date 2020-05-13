@@ -1,0 +1,19 @@
+{
+  "name": "vue-with-wrapper",
+  "version": "1.0.0",
+  "keywords": ["vue", "vue-componet"],
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "poi dev/index.js --serve",
+    "build": "bili --format cjs --format esm",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "bili": "^4.10.0",
+    "poi": "^12.8.0",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
