@@ -1,7 +1,10 @@
 {
   "name": "vue-with-wrapper",
-  "version": "1.0.0",
-  "keywords": ["vue", "vue-componet"],
+  "version": "1.0.1",
+  "keywords": [
+    "vue",
+    "vue-componet"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "license": "MIT",
