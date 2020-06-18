@@ -1,16 +1,20 @@
 <template>
   <div>
     <With :e="a.b.c.d.e" :f="123" :b="a.b" :parse="parseObj()">
-      <template slot-scope="{ e, f, b, parse }">
-        {{e}}
-        <br>
-        {{f}}
-        <br>
-        {{b}}
-        <br>
-        {{parse.b}}
-        {{parse.c}}
-        {{parse.d}}
+      <template #default="{ e, f, b, parse }">
+          {{e}}
+          <br>
+          {{f}}
+          <br>
+          {{b}}
+          <br>
+          <span>
+            {{parse.b}}
+          </span>
+          <br>
+          {{parse.c}}
+          <br>
+          {{parse.d}}
       </template>
     </With>
   </div>
