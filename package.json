@@ -8,6 +8,10 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zWingz/vue-with-wrapper"
+  },
   "scripts": {
     "dev": "poi dev/index.js --serve",
     "build": "bili --format cjs --format esm",
